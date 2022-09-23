@@ -5,17 +5,17 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "2340a44e2e0a38ab0ba552437ff7a719"
+        API_ID = 16623197
+        BOT_TOKEN = "5521845264:AAFkBGjQjjVuCoM1-7EPGZc07iwXOoLJgp0"
+        BASE_URL_OF_BOT = "https://ttkleechtortool.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001773906505]
+        OWNER_ID = 5109698142
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://diqqnleb:av8JaTmSZ4MAezb-fK_Jg7BT2UIQvVkD@heffalump.db.elephantsql.com/diqqnleb"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
